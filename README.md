@@ -3,7 +3,7 @@ LaTeX preamble I start papers with
 
 ```tex
 \documentclass{article}
-\usepackage[letterpaper, landscape, margin=0.3in]{geometry}
+\usepackage[letterpaper, margin=1in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{bm}%Bold face math
 \usepackage{physics}%Bra's and ket's
