@@ -54,7 +54,6 @@ LaTeX preamble I start papers with
 
 \setlength{\columnseprule}{0.4pt}
 \newcommand{\im}{\Rightarrow}
-\renewcommand{\t}{\theta}
 \DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
 \DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
 \newcommand{\scriptr}{\mathcalligra{r}\,}
@@ -114,5 +113,6 @@ LaTeX preamble I start papers with
 \definecolor{codegray}{gray}{0.885}
 \newmintinline[python]{python}{bgcolor=codegray,fontsize=\small}
 
+\renewcommand\t\text
 
 ```
